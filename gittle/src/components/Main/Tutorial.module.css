@@ -1,0 +1,18 @@
+.tutorial {
+  color: #4d96ff;
+  position: absolute;
+  width: 260px;
+  text-align: center;
+  left: 50%;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  font-size: 2.1vh;
+  font-weight: bold;
+}
+
+.tutorial:hover {
+  background-color: #4d96ff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}

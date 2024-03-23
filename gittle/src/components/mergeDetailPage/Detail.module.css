@@ -1,0 +1,348 @@
+.container {
+  width: calc(95vw - 256px);
+}
+
+.reqtitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.merged {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6bcc78;
+  width: 5.5rem;
+  height: 1.5rem;
+  color: white;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
+
+.needmerge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6b6b;
+  width: 5.5rem;
+  height: 1.5rem;
+  color: white;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
+
+.info {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.2rem;
+}
+.date {
+  display: flex;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bold {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.reqavatar {
+  border-radius: 10rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.3rem;
+}
+
+.logbox {
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 0.1rem; */
+  /* justify-content: center; */
+  border-style: solid;
+  border-color: rgba(107, 204, 120, 0.5);
+  padding: 0.7rem 0.5rem;
+  /* border-radius: 1rem; */
+  border-width: 0 0 0.1rem 0;
+}
+
+.commitprofile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.message {
+  font-weight: 600;
+  color: #ff6b6b;
+  margin-bottom: 0.2rem;
+}
+
+.authortime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name {
+  font-weight: 400;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.time {
+  /* font-weight: 300; */
+  font-size: 0.8rem;
+  color: #706f6f;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  width: 8rem;
+  height: 2rem;
+  border: solid #959595;
+  border-width: 1px 1px 0 1px;
+  border-radius: 0.8rem 0.8rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.selected {
+  font-weight: 600;
+}
+
+.tabbox {
+  height: calc(58vh - 80px);
+  border: 1px solid #959595;
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.request {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.push {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #6bcc78;
+  border-radius: 1rem;
+  width: 15rem;
+  height: 6rem;
+}
+
+.branch {
+  font-weight: 600;
+}
+
+.pushbranch {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #6bcc78;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+.arrow div {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #c9a6ff;
+}
+
+.merge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #ff6b6b;
+  border-radius: 1rem;
+  width: 15rem;
+  height: 6rem;
+}
+
+.mergebranch {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ff6b6b;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.codearea {
+  margin-top: 0.5rem;
+  /* border-style: solid; */
+  /* border-width: 0.2rem 0 0 0; */
+  padding-top: 0.5rem;
+  /* border-color: rgba(255, 107, 107, 0.5); */
+}
+
+.codebox {
+  display: flex;
+  flex-direction: row;
+}
+
+.file {
+  width: 12rem;
+  padding: 0.4rem;
+  border-style: solid;
+  border-width: 0.1rem 0.1rem 0 0.1rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.filename {
+  font-size: 0.8rem;
+}
+
+.active {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.code {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.codebefore {
+  width: 45%;
+  border-style: solid;
+  border-width: 0.1rem 0 0.1rem 0.1rem;
+  border-color: black;
+}
+
+.codeafter {
+  width: 45%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: black;
+}
+
+.title {
+  padding: 0.3rem;
+  background-color: #d9d9d9;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.box {
+  padding: 0.3rem;
+}
+
+.minus {
+  background-color: rgba(255, 107, 107, 0.5);
+  font-family: "D2Coding";
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+}
+
+.zero {
+  font-family: "D2Coding";
+  font-size: 0.9rem;
+  color: #706f6f;
+  margin-bottom: 0.1rem;
+}
+
+.plus {
+  background-color: rgba(107, 204, 120, 0.5);
+  font-family: "D2Coding";
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+}
+
+.comments {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #6bcc78;
+  cursor: pointer;
+}
+
+.dropicon {
+  margin-left: 0.5rem;
+}
+
+.commentbox {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.8rem;
+  border: 0.1rem solid rgba(107, 204, 120, 0.5);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.commentavatar {
+  border-radius: 10rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.content {
+  margin-left: 0.6rem;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+}
+
+.commentuser {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.commentdate {
+  font-size: 0.7rem;
+  color: #959595;
+  margin-left: 0.5rem;
+}
+
+@font-face {
+  font-family: "D2Coding";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,108 @@
+.ant-card-body {
+  padding: 0px;
+  z-index: 1;
+}
+.ant-card {
+  border: 0px;
+}
+.c-multi-drag-table.is-dragging table {
+  border: 1px solid #4285f4;
+}
+.c-multi-drag-table .ant-col {
+  position: relative;
+}
+.c-multi-drag-table .ant-col:first-child:after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: #e2e2e2;
+  z-index: 1;
+}
+.c-multi-drag-table .inner-col-unstaged {
+  position: relative;
+  height: 100%;
+  background: #fff;
+  border: 3px solid #ff6b6b;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+.c-multi-drag-table .inner-col-staged {
+  position: relative;
+  height: 100%;
+  background: #fff;
+  border: 3px solid #6bcc78;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+.c-multi-drag-table .ant-table {
+  /* border: 5px solid #f0f0f0; */
+}
+.c-multi-drag-table .ant-table-thead > tr > th,
+.c-multi-drag-table .ant-table-tbody > tr > td,
+.c-multi-drag-table .ant-table tfoot > tr > th,
+.c-multi-drag-table .ant-table tfoot > tr > td {
+  padding: 2px 2px;
+}
+.c-multi-drag-table .ant-table-tbody > tr.ant-table-placeholder > td,
+.c-multi-drag-table .ant-table-tbody > tr.ant-table-placeholder:hover > td {
+  background: transparent;
+}
+.c-multi-drag-table .ant-table-tbody > tr.row-item {
+  background: #fff;
+}
+.c-multi-drag-table
+  .ant-table-tbody.is-dragging-over
+  > tr.ant-table-placeholder {
+  background: #deebff !important;
+}
+.c-multi-drag-table .ant-table-tbody > tr.row-item.row-selected {
+  background: #deebff;
+}
+.c-multi-drag-table .ant-table-tbody > tr.row-item.row-dragging {
+  display: table;
+  color: #fff;
+  background: #4285f4;
+  border: 1px solid #f0f0f0;
+}
+.c-multi-drag-table .ant-table-tbody > tr.row-item.row-dragging > td {
+  border-bottom: 0;
+}
+.c-multi-drag-table .ant-table-tbody > tr.row-item.row-ghosting {
+  opacity: 0.5;
+}
+.ant-table-thead > tr > th {
+  position: relative;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  text-align: left;
+  background: #ffffff;
+  padding: 0px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.c-multi-drag-table .ant-col:first-child:after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0px;
+  height: 100%;
+  background: #ffffff;
+  z-index: 1;
+}
+
+.stageStatus {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}

@@ -1,0 +1,72 @@
+.c_multi_drag_table.is_dragging table {
+  border: 1px solid #4285f4;
+}
+.c_multi_drag_table .ant_col {
+  position: relative;
+}
+.c_multi_drag_table .ant_col:first_child:after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: #e2e2e2;
+  z-index: 1;
+}
+.c_multi_drag_table .inner_col_unstaged {
+  position: relative;
+  height: 100%;
+  /* background: #fff; */
+  border: 4px solid #ff6b6b;
+  padding: 10px;
+  /* z_index: 2; */
+}
+.c_multi_drag_table .inner_col_staged {
+  position: relative;
+  height: 100%;
+  background: #fff;
+  border: 4px solid #6bcc78;
+  padding: 10px;
+  /* z_index: 2; */
+}
+.c_multi_drag_table .ant_table {
+  /* border: 5px solid #f0f0f0; */
+  background: yellow;
+}
+.c_multi_drag_table .ant_table_thead > tr > th,
+.c_multi_drag_table .ant_table_tbody > tr > td,
+.c_multi_drag_table .ant_table tfoot > tr > th,
+.c_multi_drag_table .ant_table tfoot > tr > td {
+  padding: 6px 16px;
+}
+.c_multi_drag_table .ant_table_tbody > tr.ant_table_placeholder > td,
+.c_multi_drag_table .ant_table_tbody > tr.ant_table_placeholder:hover > td {
+  /* background: transparent; */
+  background: red;
+}
+.c_multi_drag_table .ant_table_tbody > tr.row_item {
+  /* background: #fff; */
+  background: yellow;
+}
+.c_multi_drag_table
+  .ant_table_tbody.is_dragging_over
+  > tr.ant_table_placeholder {
+  background: #deebff !important;
+}
+.c_multi_drag_table .ant_table_tbody > tr.row_item.row_selected {
+  background: #deebff;
+}
+.c_multi_drag_table .ant_table_tbody > tr.row_item.row_dragging {
+  display: table;
+  color: #fff;
+  background: #4285f4;
+  border: 1px solid #f0f0f0;
+}
+.c_multi_drag_table .ant_table_tbody > tr.row_item.row_dragging > td {
+  border_bottom: 0;
+}
+.c_multi_drag_table .ant_table_tbody > tr.row_item.row_ghosting {
+  opacity: 0.5;
+}

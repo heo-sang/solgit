@@ -1,0 +1,66 @@
+.container {
+  width: 225px;
+  height: 70vh;
+}
+.curStatus {
+  display: flex;
+  justify-content: space-between;
+}
+.branchContainer {
+  height: 70vh;
+  overflow: scroll;
+}
+.list {
+  display: none;
+}
+
+.openList {
+  display: "";
+  padding: 0 0 0 5px;
+  overflow: scroll;
+}
+
+.curBranch {
+  max-width: 50%;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.curBranch > p {
+  font-size: 1.1rem;
+}
+
+.branchList {
+  margin: 5px 0;
+  cursor: pointer;
+}
+.branchMenu {
+  font-weight: bold;
+}
+.branch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: ; */
+  padding: 3px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.branch:hover {
+  background-color: #f3f3f3;
+}
+.clicked {
+  font-weight: bold;
+  background-color: #d9d9d9;
+}
+
+.icon {
+  margin-right: 0.4rem;
+}
+
+.remoteBranch {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

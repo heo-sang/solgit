@@ -1,0 +1,17 @@
+.icon {
+  font-size: 0.7rem;
+}
+
+.branchName {
+  color: #6bcc78;
+  font-weight: bold;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  cursor: pointer;
+}

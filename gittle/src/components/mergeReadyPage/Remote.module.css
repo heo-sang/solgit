@@ -1,0 +1,147 @@
+.main {
+  height: 100%;
+  width: 60%;
+  border-style: solid;
+  border-width: 0 0 0 1px;
+}
+
+.remote {
+  margin-left: 1rem;
+}
+
+.remotebox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 0.2rem;
+  border-radius: 0.5rem;
+  background-color: #ff6b6b;
+  height: 2.5rem;
+  width: 6rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.listandbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.list {
+  width: 13rem;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-radius: 0.5rem;
+}
+
+.icon {
+  margin-right: 0.3rem;
+}
+
+.pushbranch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(107, 204, 120, 0.5);
+  padding-left: 0.3rem;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.mergebranch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 107, 107, 0.5);
+  padding-left: 0.3rem;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.branch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0.3rem;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.push {
+  width: 3rem;
+  height: 1rem;
+  background-color: rgba(107, 204, 120, 0.5);
+  margin-right: 0.5rem;
+}
+
+.merge {
+  width: 3rem;
+  height: 1rem;
+  background-color: rgba(255, 107, 107, 0.5);
+  margin-right: 0.5rem;
+}
+
+.text {
+  font-size: 0.8rem;
+}
+
+.modal {
+  display: flex;
+}
+
+.pushtext {
+  font-weight: 600;
+  color: #6bcc78;
+  margin-right: 0.5rem;
+}
+
+.mergetext {
+  font-weight: 600;
+  color: #ff6b6b;
+  margin-left: 0.5rem;
+  margin-right: 0.4rem;
+}
+
+.button {
+  margin-left: 10rem;
+  background-color: #c9a6ff;
+  height: 2.5rem;
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}

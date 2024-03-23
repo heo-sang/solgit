@@ -1,0 +1,47 @@
+.review {
+  margin-top: 1rem;
+}
+
+.comment {
+  font-weight: 600;
+  color: #6bcc78;
+  margin-bottom: 1rem;
+}
+
+.commentbox {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.des {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.radio {
+  margin-left: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.input {
+  width: 100%;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 1.5px;
+  margin-bottom: 1rem;
+  outline-color: #6bcc78;
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

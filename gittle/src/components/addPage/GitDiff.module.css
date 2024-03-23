@@ -1,0 +1,121 @@
+.textbox {
+  margin-bottom: 2rem;
+}
+
+.text {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.card {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  background: #fff;
+  border-radius: 2px;
+}
+.card_body {
+  padding: 24px;
+}
+.card_body::before {
+  display: table;
+  content: "";
+}
+.card_body::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.codebox {
+  display: flex;
+  flex-direction: row;
+}
+
+.file {
+  width: 12rem;
+  padding: 0.4rem;
+  border-style: solid;
+  border-width: 0.1rem 0.1rem 0 0.1rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.filename {
+  font-size: 0.8rem;
+}
+
+.active {
+  font-weight: 500;
+  color: #a66cff;
+  font-size: 0.8rem;
+}
+
+.code {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.codebefore {
+  width: 45%;
+  border-style: solid;
+  border-width: 0.1rem 0 0.1rem 0.1rem;
+  border-color: black;
+  /* max-height: 30%; */
+}
+
+.codeafter {
+  width: 45%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: black;
+  /* max-height: 30%; */
+}
+
+.title {
+  padding: 0.3rem;
+  background-color: #d9d9d9;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.box {
+  padding: 0.3rem;
+  overflow: scroll;
+  max-height: 200px;
+}
+
+.minus {
+  background-color: rgba(255, 107, 107, 0.5);
+  font-family: "D2Coding";
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+}
+
+.zero {
+  font-family: "D2Coding";
+  font-size: 0.9rem;
+  color: #706f6f;
+  margin-bottom: 0.1rem;
+}
+
+.plus {
+  background-color: rgba(107, 204, 120, 0.5);
+  font-family: "D2Coding";
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+}
+
+@font-face {
+  font-family: "D2Coding";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

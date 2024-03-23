@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+.orderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 45px; */
+  height: 45px;
+  cursor: pointer;
+}
+.button > p {
+  margin: 0;
+  font-weight: bold;
+}
+.clicked {
+  border-bottom: 2px solid black;
+}
+.merge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 130px; */
+  height: 45px;
+}
+
+/* 
+.mergeMenu {
+  width: 150px;
+  margin-left: 15px;
+  font-weight: bold;
+  cursor: pointer;
+} */

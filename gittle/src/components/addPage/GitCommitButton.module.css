@@ -1,0 +1,15 @@
+.toCommitBtn {
+  background-color: white;
+  border-radius: 0.3rem;
+  border-color: #47b5ff;
+  border-width: 2px;
+  height: 40px;
+  width: 20%;
+  color: #1c5cb8;
+  font-size: 18px;
+  font-weight: 600;
+}
+.closeBtn {
+  display: flex;
+  justify-content: flex-end;
+}

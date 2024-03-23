@@ -1,0 +1,14 @@
+.container {
+  width: calc(100vw - 256px);
+  min-height: calc(100vh - 80px);
+  padding: 1.6rem;
+  border-left: 1.5px solid #d9d9d9;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+}

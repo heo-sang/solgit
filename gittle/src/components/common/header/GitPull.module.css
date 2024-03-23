@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.selectorContainer {
+  height: 100px;
+  width: 49%;
+}
+.targetBranch {
+  /* font-size: 0.9rem; */
+  font-weight: bold;
+  text-align: center;
+  overflow: scroll;
+  cursor: pointer;
+}
+
+.selector {
+  /* width: 49%; */
+}
+
+.curBranch {
+  font-weight: bold;
+  text-align: center;
+  width: 49%;
+}
+.selector > p {
+  margin: 0;
+}
+
+.list {
+  display: none;
+}
+
+.openList {
+  position: absolute;
+  display: block;
+  min-width: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.branch {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.branch > p {
+  margin: 0;
+}
+
+.icon {
+  margin-right: 0.3rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 50%; */
+}
+
+.goToCommit {
+  border-radius: 0.3rem;
+  border: 0;
+  margin: 1%;
+  margin-top: 5%;
+  height: 35px;
+  width: 50%;
+}
