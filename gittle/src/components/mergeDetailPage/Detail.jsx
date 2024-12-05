@@ -162,22 +162,6 @@ export default function Detail() {
   };
 
   const mergeAccept = () => {
-    // const octokit = new Octokit({
-    //   auth: "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",
-    // });
-
-    // const merge = await octokit.request(
-    //   "PUT /repos/{owner}/{repo}/pulls/{pull_number}/merge",
-    //   {
-    //     owner: owner,
-    //     repo: repo,
-    //     pull_number: mergeReqInfo.number,
-    //     // commit_title: 'Expand enum',
-    //     // commit_message: 'Add a new value to the merge_method enum'
-    //   }
-    // );
-
-    // console.log(merge);
     window.open(`https://github.com/${owner}/${repo}/pull/${mergeReqInfo.number}`, '_blank')
     navigate("/merge/request");
   }
